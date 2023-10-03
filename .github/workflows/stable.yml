@@ -20,10 +20,12 @@ jobs:
         
         git clone https://github.com/ArrowOS-Devices/android_kernel_xiaomi_cas -b arrow-12.0 --depth=1 --recurse-submodules xiaomi-10-ultra-kernel
         mv xiaomi-10-ultra-kernel source
-        cd source
         
-        #sudo cp ./libdebuginfod.so.1 /usr/lib
-        #sudo chmod 777 /usr/lib/libdebuginfod.so.1
+        cd source/drivers
+        git clone https://github.com/cduang/kokomi
+        sudo chmod -R 777 kokomi
+        echo "obj-y				+= kokomi/" >> Makefile
+        cd ..
 
         echo "[+] Append kernel params to kprobes"
         echo "CONFIG_KPROBES=y" >> arch/arm64/configs/vendor/bengal-perf_defconfig
