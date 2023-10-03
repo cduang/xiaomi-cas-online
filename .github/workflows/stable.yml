@@ -57,4 +57,4 @@ jobs:
       uses: actions/upload-artifact@v3
       with:
         name: Image
-        path: /home/runner/work/kernelsu-xiaomi-cas-online/kernelsu-xiaomi-cas-online/zipper
+        path: /home/runner/work/xiaomi-cas-online/xiaomi-cas-online/zipper
