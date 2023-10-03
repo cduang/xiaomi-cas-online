@@ -1,7 +1,6 @@
 # KernelSU for Xiaomi 10 Ultra (Cas)
 This repository is served for my personal experiment. Expect bugs!
 
-[![Kernel Builder Xiaomi Mi 10 Ultra (cas) (legacy)](https://github.com/CoolestEnoch/kernelsu-xiaomi-cas-online/actions/workflows/legacy.yml/badge.svg)](https://github.com/CoolestEnoch/kernelsu-xiaomi-cas-online/actions/workflows/legacy.yml)
 [![Kernel Builder Xiaomi Mi 10 Ultra (cas) (cloud)](https://github.com/CoolestEnoch/kernelsu-xiaomi-cas-online/actions/workflows/cloud.yml/badge.svg)](https://github.com/CoolestEnoch/kernelsu-xiaomi-cas-online/actions/workflows/cloud.yml)
 
 ## What is this?
